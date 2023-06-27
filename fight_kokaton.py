@@ -206,7 +206,7 @@ def main():
                     beam = None
                     bombs[i] = None
                     bird.change_img(6, screen)
-                    exps.append(Explosion(bomb))
+                    exps.append(Explosion(bomb)) 
             
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen) 
