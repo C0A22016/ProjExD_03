@@ -51,8 +51,7 @@ class Bird:
             (-5, 0): img0,  # 左
             (-5, +5): pg.transform.rotozoom(img0, 45, 1.0),
             (-5, -5): pg.transform.rotozoom(img0, -45, 1.0),
-            (0, -5): pg.transform.rotozoom(img0, -90, 1.0),
-            
+            (0, -5): pg.transform.rotozoom(img0, -90, 1.0),  
         }
         self.dire = (+5, 0)
         self.img = self.imgs[self.dire]
